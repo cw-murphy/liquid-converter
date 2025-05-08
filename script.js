@@ -1,7 +1,8 @@
 // STEP 1: Define your components here
 const components = {
   "CWM_Button": ["button_copy", "button_link"],
-  "CWM_Image": ["image_src_1", "image_alt_1", "image_link_1"]
+  "CWM_Image": ["image_src_1", "image_alt_1", "image_link_1"],
+  "CWM_BodyText": ["bodytext_copy"]
 };
 
 const componentSelect = document.getElementById("componentSelect");
