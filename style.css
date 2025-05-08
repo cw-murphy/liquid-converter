@@ -2,6 +2,8 @@ body {
   font-family: sans-serif;
   margin: 40px;
   max-width: 800px;
+  background-color: #1a1a1a;  /* Dark background */
+  color: #ffffff;            /* White text */
 }
 
 label, input, select, textarea, button {
@@ -10,7 +12,48 @@ label, input, select, textarea, button {
   width: 100%;
 }
 
+/* Style for input fields, select dropdowns, and textareas */
+input, select, textarea {
+  background-color: #2d2d2d;    /* Darker input fields */
+  color: #ffffff;               /* White text */
+  border: 1px solid #404040;    /* Subtle border */
+  padding: 8px;
+  border-radius: 4px;           /* Rounded corners */
+}
+
+/* Style for buttons */
+button {
+  background-color: #404040;    /* Dark button */
+  color: #ffffff;               /* White text */
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #505050;    /* Slightly lighter on hover */
+}
+
+button:disabled {
+  background-color: #2d2d2d;
+  color: #808080;
+  cursor: not-allowed;
+}
+
+/* Style for textarea */
 textarea {
   margin-top: 10px;
   font-family: monospace;
+  background-color: #2d2d2d;
+  color: #ffffff;
+  border: 1px solid #404040;
+}
+
+/* Style for headings */
+h1, h3 {
+  color: #ffffff;              /* White text */
+  border-bottom: 1px solid #404040;  /* Subtle separator */
+  padding-bottom: 8px;
 }
