@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Liquid Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Liquid Generator</h1>
+
+    <label for="componentSelect">Choose a component:</label>
+    <select id="componentSelect">
+      <option value="">--Select--</option>
+    </select>
+
+    <div id="requiredFields"></div>
+
+    <h3>Optional Variables</h3>
+    <div id="optionalFields"></div>
+    <button id="addOptional">+ Add Optional Variable</button>
+
+    <br /><br />
+    <button id="generate" disabled>Generate Liquid</button>
+
+    <h3>Output</h3>
+    <textarea id="output" rows="10" cols="80" readonly></textarea>
+    <br />
+    <button id="copy">Copy to Clipboard</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
