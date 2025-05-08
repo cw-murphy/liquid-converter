@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+  margin: 40px;
+  max-width: 800px;
+}
+
+label, input, select, textarea, button {
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+}
+
+textarea {
+  margin-top: 10px;
+  font-family: monospace;
+}
